@@ -1,0 +1,9 @@
+<form name="correoForm" role="form" novalidate ng-submit="vm.save()">
+    <div class="row">
+        <div class="col-md-4 form-group">
+            <select class="form-control" ng-model="vm.informanteSelectedUsuarioInformante" id="select-informante" ng-options="e.informanteId as e.informanteNombre for e in vm.usuarioinformantes | unique:'informanteId'"
+                    ng-change="vm.changeLayoutPlantilla()" name="selectInformante" required ng-if="!vm.correoUsuarioInformante.id">
+            </select>
+        </div>
+    </div>
+</form>
