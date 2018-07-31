@@ -1,2 +1,2 @@
-Code snippet in Jquery, Javascript and PHP to make a AJAX call to consume a WSDL service passing parameters and getting the response to validate the result.<br>
+Code snippet using Jquery, Javascript and PHP to make a AJAX call to consume a WSDL service passing parameters and getting the response to validate the result.<br>
 This web service is provided by the SAT Mexico to perform the validation of fiscal documents using a SOAP client with a specific set of parameters to make a request and get a response.<br>

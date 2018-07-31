@@ -1,1 +1,1 @@
-Code snippet used to create a custom directive en Angularjs to validate if the content of a input match with other. This is implemented in the recovery password page.<br>
+Code snippet used to create a custom directive using Angularjs to validate if the content of a input match with other. This is implemented in the recovery password page.<br>
