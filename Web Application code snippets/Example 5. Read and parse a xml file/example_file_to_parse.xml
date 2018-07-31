@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cfdi:Comprobante NumCtaPago="7810 Banorte" LugarExpedicion="Merida Yucatan" metodoDePago="03" tipoDeComprobante="ingreso" total="3663.65" descuento="0.00" subTotal="3158.32" condicionesDePago="Crédito 30 días" certificado="MIIEcjCCA1qgAwIBAgIUMDAwMDEwMDAwMDAzMDIzOTQwODYwDQYJKoZIhvcNAQEFBQAwggGKMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMTUwMwYJKoZIhvcNAQkCDCZSZXNwb25zYWJsZTogQ2xhdWRpYSBDb3ZhcnJ1YmlhcyBPY2hvYTAeFw0xNDAxMTQxNzI3NDdaFw0xODAxMTQxNzI3NDdaMIG+MSMwIQYDVQQDExpDWU5USElBIEFSQUNFTExZIERVQVJURSBJQzEjMCEGA1UEKRMaQ1lOVEhJQSBBUkFDRUxMWSBEVUFSVEUgSUMxIzAhBgNVBAoTGkNZTlRISUEgQVJBQ0VMTFkgRFVBUlRFIElDMRYwFAYDVQQtEw1EVUlDNzAwNTIwN1E4MRswGQYDVQQFExJEVUlDNzAwNTIwTVlOUkNZMDYxGDAWBgNVBAsTD1NVQ1VSU0FMIE1BVFJJWjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0c1fNJdVA4OyJR4aXdVWmSqB+xPlIu6tu68yNi/aN1y61+qcMh5sZggUofYmaUq0JRMeSK0y9oS2FBdhhVyLTxI6NtSFQhYwQWgxwuBAUPGdpUicHI5Od+lLfMb1e+mhcbKEDGolHqV6cbeUI1DAgDmIf4A2xsIEBAUHkuMX8fECAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQEFBQADggEBAICU945v+J7aYyq54xVLmO6nEU66tEODFq1Q9loJbRZDfPnnDXOGWj/sIyizPJVCGMRUliQ4/0CycaKyS25d/5d5CS577n9XBN9rouuBktqDVZtMZLVvoVm4xDBCYxdqUnJDS3mReuw349WNr0T+aN5L3ZeHILLuzFSd4uEUjO0Hf0ESvU8jogmHYJdj3Sa7fJGPftCXzEjG+h3Vr5c7E8JcowZwnERxOU8C7qAIDJ+lF2rRxy8xBvIpvChT4dOzUfeSoqTmGT12dl4n3zSi0iI1w4uFdythbgieMspxFzjh9HOesURzClFsi9LSCStcw4Mt+ssn5hIguY57GJa4blg=" noCertificado="00001000000302394086" formaDePago="PAGO EN UNA SOLA EXHIBICIÓN" sello="y9qYbmHna8IQP9K7bnz+EsF0YNitwbDxwPnK3mCGpd5kjB1/w72TcziDltH8ncvXbEGSuDdMDEjz/OM9acedH/K8nBsRRpbvNUrbQGMWdBYDQiNC8aohnBNSgUok/rMlV+0ypa/OJMMhwpJnV7qCJACUG4ih7FcPxklnahdnNCM=" fecha="2016-11-23T08:29:22" folio="4923" serie="A" version="3.2" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cfdi:Emisor nombre="CYNTHIA ARACELLY DUARTE IC" rfc="DUIC7005207Q8">
+        <cfdi:DomicilioFiscal codigoPostal="97246" pais="México" estado="Yucatan" municipio="Mérida" localidad="Merida" colonia="FRACC. JUAN PABLO II" noExterior="383" calle="53 X 22 Y 24"/>
+        <cfdi:ExpedidoEn codigoPostal="97246" pais="México" estado="Yucatan" municipio="Mérida" localidad="Merida" colonia="FRACC. JUAN PABLO II" noExterior="383" calle="53 X 22 Y 24"/>
+        <cfdi:RegimenFiscal Regimen="Régimen de incorporación fiscal"/>
+    </cfdi:Emisor>
+    <cfdi:Receptor nombre="FABRICA DE JABONES LA PRINCESA S.A. DE C.V." rfc="FJP771129UW7">
+        <cfdi:Domicilio codigoPostal="97167" pais="México" estado="Yucatán" municipio="Mérida" localidad="Mérida" colonia="CORTES SARMIENTO" noExterior="198" calle="CALLE 63 X 2B Y 4"/>
+    </cfdi:Receptor>
+    <cfdi:Conceptos>
+        <cfdi:Concepto importe="3158.32" valorUnitario="71.78" descripcion="FILTRO SERIE 7000 HEPA P100 3M" noIdentificacion="SR-7093" unidad="PIEZA" cantidad="44.00"/>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos totalImpuestosTrasladados="505.33">
+        <cfdi:Traslados>
+            <cfdi:Traslado importe="505.33" tasa="16.0000" impuesto="IVA"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+    <cfdi:Complemento>
+        <tfd:TimbreFiscalDigital FechaTimbrado="2016-11-23T08:29:23" UUID="215d2443-27cc-4ab7-9b22-4793c9d8acd6" noCertificadoSAT="00001000000203430011" selloCFD="y9qYbmHna8IQP9K7bnz+EsF0YNitwbDxwPnK3mCGpd5kjB1/w72TcziDltH8ncvXbEGSuDdMDEjz/OM9acedH/K8nBsRRpbvNUrbQGMWdBYDQiNC8aohnBNSgUok/rMlV+0ypa/OJMMhwpJnV7qCJACUG4ih7FcPxklnahdnNCM=" selloSAT="FRhs2U1sw26TjWftkVaLIBQbKsZJf1h9c0HCl+QzC6OqjpYPwMiHMU1he0+KZB0QsGcSoS5lotGxxJDm3S7rISaKTAW6MEnKej1hI7epURfYJqUA0xd1Jz5usiIlF7WRppoX2eeNE//0QB+BpvyzoQgSuqEvRbouZNdAmcplRKM=" version="1.0" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/TimbreFiscalDigital/TimbreFiscalDigital.xsd" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>

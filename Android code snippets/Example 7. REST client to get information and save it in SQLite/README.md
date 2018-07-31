@@ -1,0 +1,4 @@
+Java class to create a REST client to consume a WS.<br>
+This class use a library called "httpclient" to create a custom REST client to make a request to get all necessary information and save it in the database SQLite.<br>
+To manage all CRUD operations, it was created a DAO to make more easier the interaction between controllers and REST clients with database.<br>
+The library used to manage all database operations its called "Sugar ORM" and is used to create a class for each entity that was needed to save in the database and by means of wich the changes of the object in the database would be made.<br>

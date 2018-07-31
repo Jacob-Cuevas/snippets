@@ -1,0 +1,4 @@
+Class that contains a custom view and is used to create a new customer in the application, capturing his name, address, phone number, shop's name, shop's address, age, geolocation(latitude and longitude) and for last his customer code.<br>
+Through a small form the seller can capture all this information and save it in the application, get the location of customer by GPS from device and take a photo from the Barcode that identify a customer to get the ID of customer.<br>
+It's important to consider the accuracy of GPS, so it had to validate the quality of the GPS signal before obtaining a reading of the current position of the seller, notifying the current status of this signal at every moment.
+The camera was used to read the barcode that identifies each client within the system. The barcode was a in Code-32 and contain the customer code that was assingned to this client.

@@ -1,6 +1,3 @@
-Proyecto: Portal de proveedores con consumo de servicios web provenientes de SAT.
-
-*Codigo para subir un archivo XML para ser parseado.
 
 //Subir XML
 $(document).on("click",".fileupload",function() {

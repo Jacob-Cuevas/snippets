@@ -1,0 +1,2 @@
+Code snippet in Javascript and Angularjs used to validate the last event registered in the application (key event or mouse event) to create a timer to valid the time passed.<br>
+If the elapsed time exceeds the limit of 16 minutes, the application will close the session and return the user to login.

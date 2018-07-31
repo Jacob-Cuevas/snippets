@@ -48,7 +48,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by METODOS1 on 16/05/2016.
+ * Created by JCuevas on 16/05/2016.
  */
 public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
 
@@ -90,14 +90,13 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
-        //inicialización del custom view para el layout.
         View view = inflater.inflate(R.layout.content_paginacensoclientes_menuprincipal_agregarcliente, container, false);
 
-        //inicializacion de Daos
+        //Daos
         rutaCensoDao = new RutaCensoDao();
         clienteCensoDao = new ClienteCensoDao();
         loginDao = new LoginDao();
-        //obtencion de Preferencias
+        //Preferencias
         preferences = getActivity().getSharedPreferences(Constantes.MY_PREFERENCIAS_NOMBRE, Constantes.CONTEXT_PRIVATE);
 
         //Spinner de rutas
@@ -132,7 +131,7 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
         //Inicialización del GPS
         inicializarGpsListener();
 
-        //Listeners de widgets
+        //Listeners
         spinnerRutasAgregarCliente.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -213,7 +212,6 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
 
                     //RutaCenso rutaSelect = rutaCensoDao.getRutaCensoPorNombre(spinnerRutasAgregarCliente.getSelectedItem().toString()).get(0);
 
-                    //Creacion del objeto cliente en la BD
                     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                     Date date = new Date();
 
@@ -312,9 +310,6 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
     }
 
 
-    /*
-    * Init valores del spinner con los nombres de las rutas del vendedor
-    */
     private void inicializarValoresSpinner(List<RutaCenso> rutasCenso){
 
         List<String> nombreRutasCenso = new ArrayList<String>();
@@ -354,7 +349,7 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
 
     private void inicializarGpsListener(){
 
-        //Se inicializa el listener del Gps
+        //SE inicializa el listener del Gps
         locationListener = new LocationListener() {
 
             @Override
@@ -362,15 +357,14 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
                 leerPosicion(location);
             }
 
-            //Validación del estatus del GPS para avisar al usuario de continuar el proceso
             public void onStatusChanged(String provider, int status, Bundle extras) {
 
                 switch (status) {
                     case LocationProvider.OUT_OF_SERVICE:
-                        //Snackbar.make(getCurrentFocus(), "Sin servicio GPS", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                        Snackbar.make(getView(), "Sin servicio GPS", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                         break;
                     case LocationProvider.TEMPORARILY_UNAVAILABLE:
-                        //Snackbar.make(getCurrentFocus(), "Servicio temporalmente no disponible de GPS", Snackbar.LENGTH_LONG).setAction("Action", null).show();
+                        Snackbar.make(getView(), "Servicio temporalmente no disponible de GPS", Snackbar.LENGTH_LONG).setAction("Action", null).show();
                         break;
                     case LocationProvider.AVAILABLE:
                         Snackbar.make(getView(), "Señal GPS disponible", Snackbar.LENGTH_LONG).setAction("Action", null).show();
@@ -394,7 +388,6 @@ public class PaginaCensoClientes_MenuPrincipal_AgregarCliente extends Fragment {
 
             boolean isGPSEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
 
-            //Validacion de la disponibilidad del GPS para mostrar el dialogo de activación en caso de que este apagado.
             if (!isGPSEnabled) {
 
                 FuncionesGPS.showSettingsAlert(getContext(), getActivity());
